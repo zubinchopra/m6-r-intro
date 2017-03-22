@@ -1,26 +1,11 @@
-# Module 5: Introduction to R
+# Introduction to R
 
 ## Overview
 R is an extraordinarily powerful open-source software program built for working with data. It is one of the most popular tools for advanced data techniques, including statistical analysis, machine learning, and data visualization. R will be the primary programming language for this course, and we will develop a strong understanding of how to leverage the power of R.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
 
-- [Resources](#resources)
-- [Writing R Code](#writing-r-code)
-  - [Comments](#comments)
-- [R Environments](#r-environments)
-  - [Executing R Scripts in the Terminal](#executing-r-scripts-in-the-terminal)
-  - [Interactive R Sessions](#interactive-r-sessions)
-  - [RStudio](#rstudio)
-- [Creating Variables](#creating-variables)
-  - [Basic Data Types](#basic-data-types)
-- [Getting Help](#getting-help)
+Helpful links:
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Resources
 - [DataCamp](https://www.datacamp.com/home) (awesome resource for interactive tutorials in R)
 - [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml)
 - [RStudio Keyboard Shortcuts](https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts)
@@ -49,14 +34,14 @@ As described above, you'll write a series of instructions in a text file, and te
 ### Executing R Scripts in the Terminal
 An R script consists of multiple lines of code saved in a text file with extension `.R`. You can use your terminal to execute an R script using the `Rscript` command:
 
-![screenshot of terminal running r script](imgs/run_rscript.png)
+![screenshot of terminal running r script](m6-imgs/run_rscript.png)
 
 As you can see in the image above, you can simply type the command `Rscript` followed by a filename (in this case, `analysis.R`) and hit `enter`. This will use the terminal to tell your computer to use the R software program to execute each line of code in the `analysis.R` file. This is a great approach for executing your R scripts **after you have written the code**, but it is not a great way to go about writing your R code for the first time.
 
 ### Interactive R Sessions
 Rather than executing an entire R script, you can open up an interactive R session within your terminal. This allows you to type R code directly into your terminal window, and your machine will use the R software program to interpret and execute your code (if you just typed R syntax into your terminal, your machine would not know what to do with it). If you simply type the letter `R` into your terminal prompt and hit `enter`, an interactive R session will appear (and you'll be provided with more information than you want or need about the R language):
 
-![screenshot of interactive r session](imgs/interactive_r.png)
+![screenshot of interactive r session](m6-imgs/interactive_r.png)
 
 Once you've started running an interactive R session, you can begin entering one line of code at a time into the R prompt (`>`). While this is a nice way to experiment with the R language, it doesn't provide much of an interface for writing R scripts, or understanding the broader R environment. Luckily, RStudio is an amazing user-interface for working with R.
 
@@ -65,7 +50,7 @@ RStudio is an open-source **integraded development environment**(IDE) that provi
 
 When you open the RStudio program (either by searching for it, or double-clicking on a desktop icon), you'll see the following interface:
 
-![screenshot of labeled RStudio interface](imgs/rstudio_labeled.png)
+![screenshot of labeled RStudio interface](m6-imgs/rstudio_labeled.png)
 
 An RStudio session consists of 4 sections:
 
