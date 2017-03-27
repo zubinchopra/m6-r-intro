@@ -109,7 +109,7 @@ In the example above, we stored **numeric** values in our variables. R is a **dy
 - **Complex**: Complex (imaginary) numbers have their own data storage type in R, are are created using the `i` syntax: `complex.variable <- 2i`. We will not be using complex numbers in this course.
 - **Integer**: Integer values are technically a different data type than numeric values because of how they are stored and manipulated within the R software program. This is something that you will rarely encounter, but it's good to know that you can create an integer by placing a capital `L` after an integer value in variable assignment (`my.integer <- 10L`).
 
-For practice creating variables, see [exercise-1](exercise-1).
+For practice creating variables, see [exercise-1](http://github.com/info201-s17/m6-r-intro/tree/master/exercise-1).
 
 ## Getting Help
 You'll inevitably run into confusing situations in R -- here are a few ways to start getting help.
