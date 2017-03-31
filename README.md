@@ -94,19 +94,22 @@ In the example above, we stored **numeric** values in our variables. R is a **dy
 
 - **Numeric**: The default computational data type in R is numeric data, which consists of the set of real numbers (including decimals).
 - **Character**: Character data stores strings of characters in a variable. When working with character data, you need to encapsulate the strings in either single (`'`) or double quotes (`"`). Character variables are created using the same assignment syntax:
-
-  ```
-  # Create character variable `famous.author` with the value "Walt Whitman"
-  famous.author <- "Walt Whitman"
-  ```
 - **Boolean**: Boolean (logical) data types can only take on two values: `TRUE` and `FALSE`. Importantly, these **are not** the strings `"TRUE"` or `"FALSE"`, as they are a different data type. If you prefer, you can use the shorthand `T` or `F` in lieu of `TRUE` and `FALSE` in variable assignment. Boolean values are returned from equality statements such as this one:
-
-  ```
-  # Test if 3.15 is greater than pi, and store the results in a variable `x`
-  x <- 3.15 > pi # returns the boolean value FALSE
-  ```
 - **Complex**: Complex (imaginary) numbers have their own data storage type in R, are are created using the `i` syntax: `complex.variable <- 2i`. We will not be using complex numbers in this course.
 - **Integer**: Integer values are technically a different data type than numeric values because of how they are stored and manipulated within the R software program. This is something that you will rarely encounter, but it's good to know that you can create an integer by placing a capital `L` after an integer value in variable assignment (`my.integer <- 10L`).
+
+For example:
+
+```
+# Numeric: Create a variable `my.age` age store your age in it
+my.age <- 21
+
+# Character: Create character variable `famous.author` with the value "Walt Whitman"
+famous.author <- "Walt Whitman"
+
+# Boolean: Test if 3.15 is greater than pi, and store the results in a variable `x`
+x <- 3.15 > pi # returns the boolean value FALSE
+```
 
 For practice creating variables, see [exercise-1](http://github.com/info201-s17/m6-r-intro/tree/master/exercise-1).
 
