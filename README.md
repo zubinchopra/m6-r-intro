@@ -21,7 +21,7 @@ Before discussing R syntax, we'll discuss how to demarcate the purpose of your c
 
 For shorter comments, you can place them after the line of code (preferably following two spaces). Here's an example of some commented R code, which will be explained below.
 
-```r
+```
 # Describe purpose of computation
 my.result <- 7 * 7  # 49
 ```
@@ -66,26 +66,26 @@ One of the most common and elementary computer programming tasks is to store inf
 
 It is best practice to choose a descriptive variable name that clearly and consicely communicates the purpose of the variable. When you are declaring a variable in R, you use the assignment operator `<-` to store information in a variable. To comply with [Google's Style Guidelines](https://google.github.io/styleguide/Rguide.xml#identifiers) variables should be **all lower-case letters, separated by periods (`.`)**. For example:
 
-```r
+```
 # Stores the number 7 into a variable called shoe.size
 shoe.size <- 7
 ```
 To see the information stored in a variable, type the variable name into the R console and hit enter:
 
-```r
+```
   shoe.size
   ## [1] 7
 ```
 
 You an also use R's built in print function to print the variable out to the console
-```r
+```
 print(shoe.size)
     ## [1] 7
 ```
 
 It's also quite easy to use basic mathematical operators (`+`, `-`, `/`, `*`) in your creation of variables. For example, you could create a variable that is the sum of two numbers as follows:
 
-```r
+```
 x <- 3 + 4
 ```
 
@@ -95,14 +95,13 @@ In the example above, we stored **numeric** values in our variables. R is a **dy
 - **Numeric**: The default computational data type in R is numeric data, which consists of the set of real numbers (including decimals).
 - **Character**: Character data stores strings of characters in a variable. When working with character data, you need to encapsulate the strings in either single (`'`) or double quotes (`"`). Character variables are created using the same assignment syntax:
 
-  ```r
+  ```
   # Create character variable `famous.author` with the value "Walt Whitman"
   famous.author <- "Walt Whitman"
-
   ```
 - **Boolean**: Boolean (logical) data types can only take on two values: `TRUE` and `FALSE`. Importantly, these **are not** the strings `"TRUE"` or `"FALSE"`, as they are a different data type. If you prefer, you can use the shorthand `T` or `F` in lieu of `TRUE` and `FALSE` in variable assignment. Boolean values are returned from equality statements such as this one:
 
-  ```r
+  ```
   # Test if 3.15 is greater than pi, and store the results in a variable `x`
   x <- 3.15 > pi # returns the boolean value FALSE
   ```
